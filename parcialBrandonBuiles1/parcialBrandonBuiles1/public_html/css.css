@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/03/2015, 01:24:41 PM
+    Author     : sala403e15
+*/
+body{
+    background-image: url(images/img01.jpg);
+}
+#main{
+    padding-bottom: 110em;
+    margin-top: 4em;
+    margin-left: 8em;
+    width: 80%;
+    border: 1px black solid;
+    background-color: white;
+}
+#head{
+    position:relative;
+}
+#container{
+    position:relative;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+#company{
+    position:absolute;
+    padding-left: 0em;
+    margin-left: 23em;
+    margin-right: 0em;
+    top:2.5em;
+}
+h1{
+    font-family:sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 0em;
+}
+#design{
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 0em;
+}
+#nav{
+    position: absolute;
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 10em;
+    top:10em;
+}
+#nav > ul > li{
+    float: left;
+    letter-spacing: 0.06em;
+    display:block;
+    padding-top: 1em;
+    padding-right: 0.8em;
+    padding-bottom: 1em;
+    padding-left: 0.8em;
+    margin-right: 2em;
+}
+.selected{
+    padding:0.6em 0.8em 0.6em 0.8em;
+    background-color: black;
+    color: white;   
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#space{
+    padding-top: 16em;
+}
+#image{
+    position: relative;
+    background-size: cover;
+    background-image: url(images/img05.jpg);
+    padding: 12em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.container2{
+    font-family:sans-serif;
+    padding: 0px 30px 30px 30px;
+    width: 100%;
+    margin-top: 0em;
+    margin-left: 0em;
+    float:left;
+}
+.boxes{
+    float:left;
+    padding: 3em 0em 0em 1em;
+    width: 60%;
+    display:border-box;
+}
+h2{
+    margin-bottom: 0em;
+}
+.pnospace{
+    font-size: 10pt;
+    margin-top: 0em;
+}
+.blue{
+    color:#66ccff;
+}
+p{
+    text-align: justify;
+    font-family:sans-serif;
+}
+.imgborder{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 6px gainsboro solid;
+    width: 98%;
+}
+.boxesnopad{
+    float:left;
+    padding: 0em 0em 0em 1em;
+    width: 60%;
+    display:border-box;
+}
+.boxes2{
+    float:left;
+    margin-left:2.5em;
+    padding: 3em 0em 0em 1em;
+    width: 20%;
+    display:border-box;
+    font-size: 10pt;
+}
+.boxes3{
+    float:left;
+    margin-left:2.5em;
+    padding: 0em 0em 0em 1em;
+    width: 20%;
+    display:border-box;
+    font-size: 10pt;
+}
+.list{
+    margin:0;
+    list-style: none;
+    padding: 0.5em 0em 1em 0em;
+    display: box;
+}
+.listspacer{
+   padding-bottom: 1.5em;
+}
+.h2borderbot{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed grey;
+}
+.pspace{
+    line-height: 150%;
+}
+#spacer{
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+#foot{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 32em;
+}
